@@ -1,0 +1,23 @@
+<snippet>
+    <content><![CDATA[
+var React = require('react');
+var PropTypes = React.PropTypes;
+
+
+function ${1:${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}}${0:(props)}  {
+  return (
+    <div> ${1:${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}} </div>
+  )
+}
+
+
+${1:${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}}.propTypes = {
+
+}
+
+module.exports = ${1:${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}};
+]]></content>
+    <tabTrigger>rsc</tabTrigger>
+    <scope>source.js</scope>
+    <description>React: stateless functional component skeleton</description>
+</snippet>
