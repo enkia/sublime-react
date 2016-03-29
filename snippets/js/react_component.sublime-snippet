@@ -3,17 +3,18 @@
 var React = require('react');
 var PropTypes = React.PropTypes;
 
-${1:${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}}.propTypes = {
 
-}
 
 var ${1:${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}} = React.createClass({
+  propTypes: {
 
-	render: function() {
-		return (
-			${0:<div />}
-		);
-	}
+  }
+
+  render: function() {
+    return (
+      ${0:<div />}
+    );
+  }
 
 });
 
